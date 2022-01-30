@@ -29,11 +29,12 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live site URL: [Click here](https://nick-gabe.github.io/frontend-card-component/)
+- Solution URL: [Click here](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub/responsive-page-using-flexbox-grid-and-HLMRkSL45)
 
 ## *My process*…………………………………………………
 
-<img src=./images/process1.png width=250 style="float: left; margin: 10px 20px">
+<img src=./images/process1.png width=250 align="left" style="margin: 10px 20px">
 
 ## Analyzing first
 I started by looking at the image and figuring out what parts of the css could be generic and applied to all of the screen sizes, then I started with the HTML, trying to keep the markup most semantic as possible.

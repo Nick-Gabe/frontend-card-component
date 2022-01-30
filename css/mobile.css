@@ -1,0 +1,38 @@
+/* @media (max-width: 1023px) { */
+
+.container {
+    margin-top: 100px;
+}
+
+.image__header {
+    height: 241px;
+    overflow: hidden;
+}
+
+.info__tab {
+    align-items: space-evenly;
+    justify-content: center;
+    text-align:center;
+    flex-wrap: wrap;
+}
+
+.info__tab > li {
+    margin: 1rem 4rem;
+}
+
+.info__value {
+    margin-bottom: 5px;
+}
+
+.title {
+    margin: 3rem auto 1rem auto;
+    width: 85%;
+    text-align: center;
+}
+
+.description {
+    margin: 0 auto;
+    width: 76%;
+    text-align: center;
+}
+/* } */

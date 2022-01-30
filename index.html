@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Stats preview card component</title>
+</head>
+
+<body>
+  <main>
+    <div class="container">
+
+      <picture class="image__header">
+        <source srcset="images/image-header-desktop.jpg" alt="Header" media="(min-width: 1024px)" class="image">
+        <img srcset="images/image-header-mobile.jpg" alt="Header" class="image">
+      </picture>
+
+      <div class="text__container">
+        <h1 class="title">Get <div class="text__accent">insights</div> that help your business grow.</h1>
+        <p class="description">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+        <ul class="info__tab">
+          <li>
+            <div class="info__value">10k+</div>
+            <div class="info__name">companies</div>
+          </li>
+          <li>
+            <div class="info__value">314</div>
+            <div class="info__name">templates</div>
+          </li>
+          <li>
+            <div class="info__value">12M+</div>
+            <div class="info__name">queries</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/Nick-Gabe">Nick Gabe</a>.
+  </div>
+</body>
+
+</html>
